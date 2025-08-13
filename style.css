@@ -1,0 +1,65 @@
+/* header */
+header {
+    background-image: url(./img/bg1.png);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    /* vertikal zentrieren */
+    padding: 0 20px;
+}
+
+.nav a:first-of-type {
+    margin-left: auto;
+    /* schiebt den ersten Link und alles danach nach rechts */
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.discover_now {
+    margin-top: 60px;
+    display: flex;
+
+}
+
+.discover_text {}
+
+.discover_text h2 {}
+
+.img_headphone {
+    height: 300px;
+    /* width: 120px; */
+}
+
+/* Core Features */
+.core_features {
+    background-color: #CDFBF6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.core_features h2 {
+    color: red;
+}
+
+.core_features strong {
+    font-size: 40px;
+    text-align: center;
+}
+
+.service_icon {
+    display: flex;
+}
+
+.service_icon figure {
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
