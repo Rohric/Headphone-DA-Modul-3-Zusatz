@@ -26,9 +26,9 @@ header {
 
 }
 
-.discover_text {}
+/* .discover_text {} */
 
-.discover_text h2 {}
+/* .discover_text h2 {} */
 
 .img_headphone {
     height: 300px;
@@ -64,9 +64,71 @@ header {
     align-items: center;
 }
 
-.figure_1{
+.article_wireless {
+    background-color: #F7F7F7;
+}
+
+.article_wireless figure {
     display: flex;
-    align-items:flex-start;
-    gap: 20px;
+}
+
+.row_reverse {
+    flex-direction: row-reverse;
+}
+
+.article_wireless figcaption {
+    margin: 32px 32px;
+}
+
+.article_wireless figcaption h3 {
+    font-size: 40px;
+}
+
+.article_wireless figcaption p {
+    font-size: 24px;
+}
+
+.wheretobuy h2 {
+    font-size: 40px;
+}
+
+.wheretobuy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* Überschrift + Adresse mittig */
+}
+
+.wheretobuy iframe {
+    margin: 80px 0;
+    /* Abstand nach oben/unten */
+    width: 100%;
+}
+
+.wheretobuy span {
+    text-align: start;
+    padding-left: 32px;
+}
+
+footer {
+    background-color: #F23D5C;
+    display: flex;
+    justify-content: space-between;
+}
+footer span{
+    color: white;
+    
+    padding: 24px 24px;
+    font-size: 16px;
+   
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    height: 40px;
+    margin: 24px 24px;
     
 }
+
