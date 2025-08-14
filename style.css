@@ -1,6 +1,8 @@
 /* header */
 header {
     background-image: url(./img/bg1.png);
+    background-size: cover;
+    background-position: top;
 }
 
 .nav {
@@ -64,6 +66,7 @@ header {
     align-items: center;
 }
 
+/* Section article */
 .article_wireless {
     background-color: #F7F7F7;
 }
@@ -88,6 +91,8 @@ header {
     font-size: 24px;
 }
 
+/* where to buy */
+
 .wheretobuy h2 {
     font-size: 40px;
 }
@@ -110,6 +115,7 @@ header {
     padding-left: 32px;
 }
 
+/* footer */
 footer {
     background-color: #F23D5C;
     display: flex;
